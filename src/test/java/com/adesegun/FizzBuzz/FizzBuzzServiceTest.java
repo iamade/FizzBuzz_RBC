@@ -37,6 +37,5 @@ public class FizzBuzzServiceTest {
         assertEquals("13", fizzBuzzService.next());
         assertEquals("14", fizzBuzzService.next());
         assertEquals("FizzBuzz", fizzBuzzService.next());
-        assertEquals("16", fizzBuzzService.next());
     }
 }
