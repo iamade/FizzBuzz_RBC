@@ -11,6 +11,12 @@ public class FizzBuzzController {
     @Autowired
     private FizzBuzzService fizzBuzzService;
 
+    /**
+     * Endpoint to get the next value in the FizzBuzz sequence.
+     *
+     * @return the next FizzBuzz value as a String
+     */
+
     @GetMapping("/next")
     public String nextFizzBuzz(){
         return fizzBuzzService.next();
