@@ -41,7 +41,15 @@ curl http://localhost:8080/next
 This will return the next number in the FizzBuzz sequence or "Fizz", "Buzz", "FizzBuzz" according to the game's rules.
 
 ### Testing
-To run the tests included with the application, use the following Maven command:
+To run the unit tests included with the application, use the following Maven command:
+```commandline
+./mvnw test -Dtest=FizzBuzzServiceTest
+```
+To run the Integration tests included with the application, use the following Maven command:
+```commandline
+./mvnw test -Dtest=FizzBuzzIntegrationTest
+```
+To run the full tests included with the application, use the following Maven command:
 ```commandline
 ./mvnw test
 
